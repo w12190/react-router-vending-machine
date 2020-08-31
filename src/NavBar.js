@@ -10,6 +10,8 @@ function NavBar() {
     fontWeight: "bold",
     color: "limegreen",
   }
+ /* alternative, set in CSS
+ styles applied directly to component will supercede CSS*/
 
   return (
     <nav className="NavBar">

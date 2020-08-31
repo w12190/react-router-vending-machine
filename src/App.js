@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route } from "react-router-dom"
+import { BrowserRouter, Route, Link } from "react-router-dom"
 import VendingMachine from './VendingMachine'
 import HotCheetos from './HotCheetos';
 import MountainDew from './MountainDew';
@@ -13,7 +13,7 @@ import NavBar from './NavBar';
  */
 function App() {
   return (
-    <div>
+    <div className="App">
       <BrowserRouter>
         <NavBar />
         <Route exact path="/">

@@ -13,7 +13,6 @@ function Ramen() {
     <div>
       <img src={ramenImageURL} />
       <p> Ramen here </p> <br />
-      <Link to="/"> Return to Vending Machine</Link>
     </div>
   )
 }

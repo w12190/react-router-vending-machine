@@ -13,7 +13,6 @@ function MountainDew() {
     <div>
       <img src={mountainDewImageURL} alt="xtreme mountain dew"/>
       <p> Mountain Dew here</p> <br />
-      <Link to="/"> Return to Vending Machine</Link>
     </div>
   )
 }

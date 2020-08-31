@@ -12,7 +12,6 @@ function HotCheetos() {
     <div>
       <img src={cheetosImageURL} alt="wowwwwwwwww hot cheeto encrusted turkey"/>
       <p> Hot Cheetos here</p> <br />
-      <Link to="/"> Return to Vending Machine</Link>
     </div>
   )
 }
