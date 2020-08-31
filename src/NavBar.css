@@ -1,0 +1,12 @@
+.NavBar a {
+    color: black;
+    margin: 10px;
+    padding: 1px;
+    text-decoration: none;
+}   
+
+.NavBar a.active {
+    color: cornflowerblue;
+    text-decoration: none;
+
+}

@@ -2,9 +2,10 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Route } from "react-router-dom"
 import VendingMachine from './VendingMachine'
-import HotCheetos from './HotCheetos'
-import MountainDew from './MountainDew'
-import Ramen from './Ramen'
+import HotCheetos from './HotCheetos';
+import MountainDew from './MountainDew';
+import Ramen from './Ramen';
+import NavBar from './NavBar';
 
 /** App
  * 
@@ -14,6 +15,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+        <NavBar />
         <Route exact path="/">
           <VendingMachine />
         </Route>
